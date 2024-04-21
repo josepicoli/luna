@@ -1,0 +1,77 @@
+#main-index {
+    padding: 0px 65px;
+}
+
+.products-dock {
+    margin-top: 70px;
+}
+
+.products-dock-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products-dock-title h2 {
+    color: #E0E1DD;
+    font-size: 2em;
+}
+
+.products-dock-title a {
+    display: block;
+    padding: 9px;
+    color: #E0E1DD;
+    font-size: 0.9em;
+    font-weight: 600;
+    background-color: #415A77;
+    border-radius: 2px;
+    border: 1px solid #5d6875;
+    text-decoration: none;
+}
+
+.products-dock-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.card {
+    background-color: #1B263B;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+    color: #E0E1DD;
+}
+
+.card .info{
+    padding: 5px;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card h3 {
+    font-size: 0.8750em;
+}
+
+.card .discount {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 600;
+    width: 20%;
+    background-color: #FF6666;
+}
+
+.card .price {
+    text-align: center;
+    display: inline-block;
+    background-color: #415A77;
+    color: #E0E1DD;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 600;
+    width: 69%;
+    text-decoration: none;
+}
