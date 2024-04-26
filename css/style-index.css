@@ -2,8 +2,59 @@
     padding: 0px 65px;
 }
 
+#banner {
+    margin-top: 90px;
+    overflow: hidden;
+    width: 840px;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 1;
+}
+
+#banner > img {
+    width: 840px;
+}
+
+#banner > h2 {
+    position: absolute;
+    bottom: 28px;
+    left: 15px;
+    font-size: 2em;
+}
+
+.discount-banner {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 600;
+    width: 40px;
+    text-align: center;
+    background-color: #FF6666;
+}
+
+.price-banner {
+    position: absolute;
+    bottom: 15px;
+    left: 68px;
+    text-align: center;
+    display: inline-block;
+    background-color: #415A77;
+    color: #E0E1DD;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 600;
+    /*width: 69%;*/
+    width: 140px;
+    text-decoration: none;
+}
+
 .products-dock {
-    margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 .products-dock-title {
@@ -41,6 +92,7 @@
     border-radius: 4px;
     overflow: hidden;
     color: #E0E1DD;
+    box-shadow: 2px 2px 4px #0c111a;
 }
 
 .card .info{
