@@ -1,0 +1,41 @@
+.card {
+    background-color: #1B263B;
+    width: 200px;
+    border-radius: 4px;
+    overflow: hidden;
+    color: #E0E1DD;
+    box-shadow: 2px 2px 4px #0c111a;
+}
+
+.card .info{
+    padding: 5px;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card h3 {
+    font-size: 0.8750em;
+}
+
+.card .discount {
+    display: inline-block;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 600;
+    width: 20%;
+    background-color: #FF6666;
+}
+
+.card .price {
+    text-align: center;
+    display: inline-block;
+    background-color: #415A77;
+    color: #E0E1DD;
+    padding: 4px;
+    border-radius: 2px;
+    font-weight: 600;
+    width: 69%;
+    text-decoration: none;
+}

@@ -1,0 +1,34 @@
+#main-loja {
+    padding: 0px 65px;
+}
+
+#products-search {
+    margin-top: 100px;
+    margin-bottom: 35px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#products-search > h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+#products-search > input {
+    text-align: center;
+    padding: 14px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    font-size: 	1em;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 35px;
+}
