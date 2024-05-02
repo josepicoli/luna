@@ -1,3 +1,5 @@
+/* GERAL */
+
 .card {
     background-color: #1B263B;
     width: 200px;
@@ -7,19 +9,27 @@
     box-shadow: 2px 2px 4px #0c111a;
 }
 
-.card .info{
-    padding: 5px;
-}
+/* IMAGEM */
 
-.card img {
+.card > img {
     width: 200px;
 }
 
-.card h3 {
+/* INFORMAÇOES */
+
+.info{
+    padding: 5px;
+}
+
+/* NOME */
+
+.info > h3 {
     font-size: 0.8750em;
 }
 
-.card .discount {
+/* DESCONTO */
+
+.discount {
     display: inline-block;
     padding: 4px;
     border-radius: 2px;
@@ -28,7 +38,9 @@
     background-color: #FF6666;
 }
 
-.card .price {
+/* PREÇO */
+
+.price {
     text-align: center;
     display: inline-block;
     background-color: #415A77;

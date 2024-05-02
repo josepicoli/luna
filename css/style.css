@@ -1,3 +1,5 @@
+/* GERAL */
+
 body {
     margin: 0;
     padding: 0;
@@ -73,6 +75,7 @@ header {
 }
 
 /* FOOTER */
+
 footer {
     background-color: #1B263B;
     display: flex;

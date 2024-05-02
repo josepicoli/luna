@@ -2,6 +2,8 @@
     padding: 0px 65px;
 }
 
+/* BARRA DE BUSCA */
+
 #products-search {
     margin-top: 100px;
     margin-bottom: 35px;
@@ -25,6 +27,8 @@
     border-radius: 3px;
     font-size: 	1em;
 }
+
+/* JOGOS */
 
 .products {
     display: flex;
