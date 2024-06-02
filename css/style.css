@@ -66,14 +66,6 @@ header {
     text-decoration: none;
 }
 
-#button-theme:hover {
-    cursor: pointer;
-}
-
-#button-theme > img {
-    width: 30px;
-}
-
 /* FOOTER */
 
 footer {
